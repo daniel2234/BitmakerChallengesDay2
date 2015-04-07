@@ -170,7 +170,11 @@ int main(int argc, const char * argv[]) {
         void *genericPointer = &year2;
         int *intPointer = (int *)genericPointer;
         NSLog(@"%d", *intPointer);
+        
+        //2nd question
+        NSLog(@"This is my second day at Bitmaker Labs");
     }
     return 0;
+    
     
 }
